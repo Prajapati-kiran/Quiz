@@ -1,0 +1,43 @@
+CREATE TABLE QUESTION(
+ID  VARCHAR2(3) primary key not null,
+CATEGORY VARCHAR2(10),
+DIFFICULTYLEVEL VARCHAR2(10),
+QUESTION_TITLE VARCHAR2(100),
+OPTION1 VARCHAR2(100),
+OPTION2 VARCHAR2(100),
+OPTION3 VARCHAR2(100),
+OPTION4 VARCHAR2(100),
+RIGHT_ANSWER VARCHAR2(100));
+
+
+INSERT INTO QUESTION1 VALUES (1,'java','easy','Number of primitive data types in Java are?','6','7','8','9','8');
+INSERT INTO QUESTION1 VALUES (3,'java','easy','What is the size of float and double in java?','32 and 64','32 and 32','64 and 64','64 and 32','32 and 64');
+INSERT INTO QUESTION1 VALUES (2,'java','easy','Automatic type conversion is possible in which of the possible cases?','byte to int','int to long','long to int','short to int','int to long');
+INSERT INTO QUESTION1 VALUES (4,'java','easy',' Who invented Java Programming?','Guido van Rossum','James Gosling','Dennis Ritchie','Bjarne Stroustrup','James Gosling');
+INSERT INTO QUESTION1 VALUES (5,'java','easy','Which statement is true about Java?','Java is a sequence-dependent programming language',' Java is a code dependent programming language','Java is a platform-dependent programming language',' Java is a platform-independent programming language',' Java is a platform-independent programming language');
+INSERT INTO QUESTION1 VALUES (6, 'java', 'easy', 'What is the purpose of the "break" statement in Java?', 'To terminate the loop', 'To skip the current iteration', 'To jump out of the method', 'To execute the next statement', 'To terminate the loop');
+INSERT INTO QUESTION1 VALUES (7, 'java', 'easy', 'Which keyword is used to declare a constant in Java?', 'const', 'final', 'static', 'constant', 'final');
+INSERT INTO QUESTION1 VALUES (8, 'java', 'easy', 'What is the default value of the char data type in Java?', '0', 'null', 'false', 'a', '0');
+INSERT INTO QUESTION1 VALUES (9, 'java', 'easy', 'How is the size of an array determined in Java?', 'By using the sizeOf() method', 'By checking the length property', 'By using the size() method', 'By using the length property', 'By using the length property');
+INSERT INTO QUESTION1 VALUES (10, 'java', 'easy', 'Which Java keyword is used to create a derived class?', 'super', 'base', 'this', 'extends', 'extends');
+INSERT INTO QUESTION1 VALUES (11, 'python', 'easy', 'What is the purpose of the "pass" statement in Python?', 'To terminate the loop', 'To skip the current iteration', 'To indicate an empty block of code', 'To execute the next statement', 'To indicate an empty block of code');
+INSERT INTO QUESTION1 VALUES (12, 'python', 'easy', 'In Python, how do you convert a number to a string?', 'str()', 'convertToString()', 'stringify()', 'to_string()', 'str()');
+INSERT INTO QUESTION1 VALUES (13, 'python', 'easy', 'Which method is used to remove the last element from a list in Python?', 'pop()', 'removeLast()', 'deleteLast()', 'discard()', 'pop()');
+INSERT INTO QUESTION1 VALUES (14, 'python', 'easy', 'What is the output of the expression "3 + 5 * 2" in Python?', '16', '26', '13', 'None of the above', '13');
+INSERT INTO QUESTION1 VALUES (15, 'python', 'easy', 'Which of the following is a correct way to comment out multiple lines in Python?', '/* ... */', '# ... #', '-- ... --', '/* ... #', '# ... #');
+INSERT INTO QUESTION1 VALUES (16, 'python', 'easy', 'What is the purpose of the "continue" statement in Python?', 'To terminate the loop', 'To skip the current iteration', 'To indicate an empty block of code', 'To execute the next statement', 'To skip the current iteration');
+INSERT INTO QUESTION1 VALUES (17, 'python', 'easy', 'In Python, what is the correct way to check if a key exists in a dictionary?', 'key in dict', 'dict.contains(key)', 'key.exists()', 'dict.hasKey(key)', 'key in dict');
+INSERT INTO QUESTION1 VALUES (18, 'python', 'easy', 'Which method is used to append an element to the end of a list in Python?', 'add()', 'append()', 'insert()', 'extend()', 'append()');
+INSERT INTO QUESTION1 VALUES (19, 'python', 'easy', 'What does the "len()" function in Python return?', 'Total length of a string', 'Number of elements in a list', 'Number of characters in a file', 'Length of the longest word in a paragraph', 'Number of elements in a list');
+INSERT INTO QUESTION1 VALUES (20, 'python', 'easy', 'Which of the following is true about Pythons list comprehensions?', 'They can only be used with integers', 'They create a new list by applying an expression to each element', 'They modify the existing list directly', 'They can only be used with strings', 'They create a new list by applying an expression to each element');
+INSERT INTO QUESTION1 VALUES (21, 'sql', 'easy', 'What does SQL stand for?', 'Structured Language', 'Sequential Language', 'Structured Query Language', 'Sequential Query Language', 'Structured Query Language');
+INSERT INTO QUESTION1 VALUES (22, 'sql', 'easy', 'In SQL, which keyword is used to retrieve unique values from a column?', 'DISTINCT', 'UNIQUE', 'DIFFERENT', 'SINGLE', 'DISTINCT');
+INSERT INTO QUESTION1 VALUES (23, 'sql', 'easy', 'What is the purpose of the GROUP BY clause in SQL?', 'To filter records based on a condition', 'To sort records in ascending order', 'To group records based on a column', 'To join tables', 'To group records based on a column');
+INSERT INTO QUESTION1 VALUES (24, 'sql', 'easy', 'Which SQL command is used to update data in a database?', 'CHANGE', 'MODIFY', 'UPDATE', 'ALTER', 'UPDATE');
+INSERT INTO QUESTION1 VALUES (25, 'sql', 'easy', 'What is the result of the SQL query: SELECT COUNT(*) FROM employees;', 'Total number of employees', 'Sum of employee salaries', 'Average employee salary', 'Number of records in the employees table', 'Number of records in the employees table');
+INSERT INTO QUESTION1 VALUES (26, 'sql', 'easy', 'What is the purpose of the ORDER BY clause in SQL?', 'To filter records based on a condition', 'To sort records in ascending order', 'To group records based on a column', 'To join tables', 'To sort records in ascending order');
+INSERT INTO QUESTION1 VALUES (27, 'sql', 'easy', 'Which SQL command is used to delete a table?', 'DELETE TABLE', 'DROP TABLE', 'REMOVE TABLE', 'DELETE FROM TABLE', 'DROP TABLE');
+INSERT INTO QUESTION1 VALUES (28, 'sql', 'easy', 'What is the result of the SQL query: SELECT AVG(salary) FROM employees;', 'Total salary of all employees', 'Average salary of all employees', 'Number of employees', 'Sum of employee salaries', 'Average salary of all employees');
+INSERT INTO QUESTION1 VALUES (29, 'sql', 'easy', 'In SQL, what is the purpose of the HAVING clause?', 'To filter records based on a condition', 'To sort records in ascending order', 'To group records based on a column', 'To filter records after grouping', 'To filter records after grouping');
+INSERT INTO QUESTION1 VALUES (30, 'sql', 'easy', 'Which SQL command is used to add a new column to an existing table?', 'ADD COLUMN', 'ALTER TABLE ADD COLUMN', 'INSERT COLUMN', 'CREATE COLUMN', 'ALTER TABLE ADD COLUMN');
+
